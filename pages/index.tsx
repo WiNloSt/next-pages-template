@@ -1,11 +1,16 @@
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { Welcome } from '../components/Welcome/Welcome';
+import dynamic from 'next/dynamic';
+
+// import Analytics from '@/components/Analytics';
+
+const DynamicAnalytics = dynamic(() => import('@/components/Analytics'), {
+  ssr: false,
+});
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      {/* xxxx */}
+      <DynamicAnalytics />
     </>
   );
 }
