@@ -3980,9 +3980,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk::locator=mantine-next-template%40workspace%3A.":
-  version: 0.1.38
-  resolution: "@metabase/embedding-sdk-react@file:../../metabase/resources/embedding-sdk#../../metabase/resources/embedding-sdk::hash=9e42f8&locator=mantine-next-template%40workspace%3A."
+"@metabase/embedding-sdk-react@npm:1.51.4":
+  version: 1.51.4
+  resolution: "@metabase/embedding-sdk-react@npm:1.51.4"
   dependencies:
     "@dnd-kit/core": "npm:^6.0.8"
     "@dnd-kit/modifiers": "npm:^6.0.1"
@@ -4035,7 +4035,7 @@ __metadata:
     html2canvas-pro: "npm:^1.5.0"
     humanize-plus: "npm:^1.8.1"
     icepick: "npm:2.4.0"
-    iframe-resizer: "npm:^4.3.2"
+    iframe-resizer: "npm:~4.3.2"
     immer: "npm:^9.0.17"
     inflection: "npm:^1.7.1"
     inquirer-toggle: "npm:^1.0.1"
@@ -4069,7 +4069,7 @@ __metadata:
     react-grid-layout: "npm:^1.2.5"
     react-innertext: "npm:^1.1.5"
     react-is: "npm:^18.2.0"
-    react-markdown: "npm:^8.0.4"
+    react-markdown: "npm:^8.0.7"
     react-redux: "npm:^9.1.2"
     react-resizable: "npm:^3.0.5"
     react-router: "npm:3"
@@ -4105,8 +4105,8 @@ __metadata:
     react: ">=17 <=18"
     react-dom: ">=17 <=18"
   bin:
-    embedding-sdk-react: ./dist/cli.js
-  checksum: 10c0/05b654251df3208a5514957d1f2648fe506dba83dd04f56c016a9d9f9b9c3e600e06d50b01dd7a1f19fa1149b542d9dd71eddfb7c03abfaf9753c86849f5d872
+    embedding-sdk-react: dist/cli.js
+  checksum: 10c0/d53e64a94386b5ea1b4ade13b9ac9399b4664e693737178f0297584899d798e6b1912decf48f8d2ff120e7891dc7e60d7a57646932b4e73e1841770291245bb7
   languageName: node
   linkType: hard
 
@@ -13429,10 +13429,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"iframe-resizer@npm:^4.3.2":
-  version: 4.4.5
-  resolution: "iframe-resizer@npm:4.4.5"
-  checksum: 10c0/88a5ab0f6f54f25ddf47c5b3e5534aeee1e597656603d3b3b95185fa5d6c3d89be731865766a2f098324ba4dc17fc760096fad808e53c9db55e6b52b4246f476
+"iframe-resizer@npm:~4.3.2":
+  version: 4.3.11
+  resolution: "iframe-resizer@npm:4.3.11"
+  checksum: 10c0/9b4d24f36cce03b871122f1aab6b38895d0865a6fd115d3b102d9fd83526a082a804090bcf5b5f71d68f5e718ec5e39b9bf65b8d257af94d3baf99bd60af90a8
   languageName: node
   linkType: hard
 
@@ -15572,7 +15572,7 @@ __metadata:
     "@ianvs/prettier-plugin-sort-imports": "npm:^4.3.1"
     "@mantine/core": "npm:7.13.0"
     "@mantine/hooks": "npm:7.13.0"
-    "@metabase/embedding-sdk-react": ../../metabase/resources/embedding-sdk
+    "@metabase/embedding-sdk-react": "npm:1.51.4"
     "@next/bundle-analyzer": "npm:^14.2.4"
     "@next/eslint-plugin-next": "npm:^14.2.4"
     "@storybook/addon-essentials": "npm:^8.1.10"
@@ -18510,7 +18510,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-markdown@npm:^8.0.4":
+"react-markdown@npm:^8.0.7":
   version: 8.0.7
   resolution: "react-markdown@npm:8.0.7"
   dependencies:
